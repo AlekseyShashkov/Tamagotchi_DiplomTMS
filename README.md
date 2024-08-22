@@ -2,6 +2,7 @@
 https://github.com/user-attachments/assets/8120a098-21da-477b-a62f-abb6a8897e25
 
 ## 📂Структура папок проекта:
+```
 +-- Assets
 |   +-- _Project
 |       +-- _Scripts
@@ -28,7 +29,7 @@ https://github.com/user-attachments/assets/8120a098-21da-477b-a62f-abb6a8897e25
 |   +-- Resources
 |   +-- Settings
 |   +-- TextMesh Pro
-
+```
 
 
 
