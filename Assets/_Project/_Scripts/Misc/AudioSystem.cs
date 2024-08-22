@@ -26,7 +26,7 @@ public class AudioSystem : MonoBehaviour
         _volumeSlider.onValueChanged.AddListener(SetVolume);
     }
 
-    void OnEnable()
+    private void OnEnable()
     {
         _volumeSlider.value = _audioSource.volume;
         _volumeSlider.onValueChanged.AddListener(SetVolume);
