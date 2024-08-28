@@ -10,10 +10,10 @@ namespace Game
         public static readonly string FATIGUE_STATE = "FatigueState";
         public static readonly string SICK_STATE = "SickState";
 
-        public Happy Happy{get; set;}
-        public Level Level{get; set;}
+        public Happy Happy { get; set; }
+        public Level Level { get; set; }
 
-        private Dictionary<string, IState> _states{get; set;}
+        private Dictionary<string, IState> _states;
 
         public Tamagotchi()
         {
@@ -31,16 +31,16 @@ namespace Game
         public void Sleep() => GetState(FATIGUE_STATE).Modify(1000.0f);
         public void Treat() => GetState(SICK_STATE).Modify(1000.0f);
 
-        public void UpdateState()
+        public void UpdateStates()
         {
             foreach (KeyValuePair<string, IState> state in _states)
             {
                 state.Value.Modify(state.Value.GetRandomDecreaseRate());
             }
 
-            Happy.UpdateHappy(_states.Average(s => s.Value.State));
+            Happy.SetHappiness(_states.Average(s => s.Value.State));
 
-            Level.UpExperience(Happy.HappinessCoef());
+            Level.UpExperience(Happy.GetHappinessCoef());
         }
 
         public IState GetState(string name)

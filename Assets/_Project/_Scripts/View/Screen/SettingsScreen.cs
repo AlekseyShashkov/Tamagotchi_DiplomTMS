@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace View
 {
-    public class Settings : UIScreen
+    public class SettingsScreen : UIScreen
     {
         [SerializeField] private CustomButton _back;
 

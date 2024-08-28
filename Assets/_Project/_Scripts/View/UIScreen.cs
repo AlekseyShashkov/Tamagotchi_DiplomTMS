@@ -7,13 +7,13 @@ namespace View
     [RequireComponent(typeof(CanvasGroup))]
     public abstract class UIScreen : MonoBehaviour
     {
-        [SerializeField] private float _animationDuration = 0.3f;
+        [SerializeField] private float _animationDuration = 0.2f;
 
-        private CanvasGroup _screenUI;
+        private CanvasGroup _canvasGroup;
 
-        void OnEnable()
+        private void OnEnable()
         {
-            _screenUI = GetComponent<CanvasGroup>();
+            _canvasGroup = GetComponent<CanvasGroup>();
         }
 
         public abstract void SetupScreen(UIScreen previousScreen);
@@ -22,10 +22,7 @@ namespace View
         {
             gameObject.SetActive(true);
 
-            _screenUI.interactable = true;
-            _screenUI.blocksRaycasts = true;
-            _screenUI.DOKill();
-            _screenUI.DOFade(1.0f, _animationDuration);
+            UpdateCanvasGroupProps(true, true, 1.0f);
         }
 
         public void CloseScreen()
@@ -35,14 +32,19 @@ namespace View
 
         private async void CloseScreenWithAwait()
         {
-            _screenUI.interactable = false;
-            _screenUI.blocksRaycasts = false;
-            _screenUI.DOKill();
-            _screenUI.DOFade(0.0f, _animationDuration);
+            UpdateCanvasGroupProps(false, false, 0.0f);
 
             await Task.Delay((int)(_animationDuration * 1000.0f));
 
             gameObject.SetActive(false);
+        }
+
+        private void UpdateCanvasGroupProps(bool interactable, bool blocksRaycasts, float fadeEndValue)
+        {
+            _canvasGroup.interactable = interactable;
+            _canvasGroup.blocksRaycasts = blocksRaycasts;
+            _canvasGroup.DOKill();
+            _canvasGroup.DOFade(fadeEndValue, _animationDuration);
         }
     }
 }

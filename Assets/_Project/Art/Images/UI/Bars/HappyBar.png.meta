@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8e5d81f0a1b9fe041958d63087b54e79
+guid: 97870ed601bab8242a48dfff244ffe24
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,11 +105,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HappyBar_0
+      name: HappyBar 1_0
       rect:
         serializedVersion: 2
         x: 21
-        y: 123
+        y: 173
         width: 556
         height: 56
       alignment: 0
@@ -119,18 +119,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab8fd3261c109cd428cd3045162dbe3c
-      internalID: -1125655312
+      spriteID: 9ac2821ce42d4b94cb1cfe9093353582
+      internalID: -1731707906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HappyBar_1
+      name: HappyBar 1_1
       rect:
         serializedVersion: 2
         x: 21
-        y: 61
+        y: 111
         width: 556
         height: 56
       alignment: 0
@@ -140,18 +140,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: acdafbad17221ee45b5fa8118a023a74
-      internalID: 1014099346
+      spriteID: 2197a30d14e958646a166e221ee7f09d
+      internalID: 1616237716
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HappyBar_2
+      name: HappyBar 1_2
       rect:
         serializedVersion: 2
         x: 29
-        y: 13
+        y: 63
         width: 540
         height: 40
       alignment: 0
@@ -161,8 +161,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57a4f89e35ac0ee408a078c71d428007
-      internalID: 791302179
+      spriteID: 2e2e90ac14328b74cb6adc61eda5e3f0
+      internalID: -637247303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HappyBar 1_3
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 7
+        width: 540
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04cb812c018fd24aaf2ba7204b6b0e6
+      internalID: 1489917033
       vertices: []
       indices: 
       edges: []
@@ -178,9 +199,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      HappyBar_0: -1125655312
-      HappyBar_1: 1014099346
-      HappyBar_2: 791302179
+      HappyBar 1_0: -1731707906
+      HappyBar 1_1: 1616237716
+      HappyBar 1_2: -637247303
+      HappyBar 1_3: 1489917033
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

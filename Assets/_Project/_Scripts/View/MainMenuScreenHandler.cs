@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace View
 {
-    public class MenuHandler : MonoBehaviour
+    public class MainMenuScreenHandler : MonoBehaviour
     {
         [SerializeField] private UIScreen _mainMenu;
 

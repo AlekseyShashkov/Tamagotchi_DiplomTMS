@@ -1,49 +1,44 @@
 using UnityEngine.UI;
 using UnityEngine;
 
-public class AudioSystem : MonoBehaviour
+namespace Misc
 {
-    public static AudioSystem Instance { get; private set; }
-    [SerializeField] private AudioSource _audioSource;
-    [SerializeField] private Slider _volumeSlider;
-
-    private void Awake()
+    [RequireComponent(typeof(AudioSource))]
+    public class AudioSystem : MonoBehaviour
     {
-        if (Instance == null)
+        public static AudioSystem Instance { get; private set; }
+
+        [SerializeField] private AudioSource _audioSource;
+        [SerializeField] private Slider _volumeSlider;
+
+        private void Awake()
         {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
+            if (Instance == null)
+            {
+                Instance = this;
+                DontDestroyOnLoad(gameObject);
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
         }
-        else
+
+        private void Start()
         {
-            Destroy(gameObject);
+            UpdateSliderValue();
         }
-    }
 
-    private void Start()
-    {
-        _volumeSlider.value = _audioSource.volume;
-        _volumeSlider.onValueChanged.AddListener(SetVolume);
-    }
+        public void SetVolume(float volume) => _audioSource.volume = volume;
+        public float GetVolume() => _audioSource.volume;
 
-    private void OnEnable()
-    {
-        _volumeSlider.value = _audioSource.volume;
-        _volumeSlider.onValueChanged.AddListener(SetVolume);
-    }
-
-    public void SetVolume(float volume)
-    {
-        if (_audioSource != null)
+        public void UpdateSliderReference(Slider newSlider)
         {
-            _audioSource.volume = volume;
+            _volumeSlider = newSlider;
+            UpdateSliderValue();
         }
-    }
 
-    public void UpdateSliderReference(Slider newSlider)
-    {
-        _volumeSlider = newSlider;
-        if (_volumeSlider != null)
+        private void UpdateSliderValue()
         {
             _volumeSlider.value = _audioSource.volume;
             _volumeSlider.onValueChanged.AddListener(SetVolume);

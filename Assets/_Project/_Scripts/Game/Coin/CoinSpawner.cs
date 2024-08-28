@@ -5,45 +5,47 @@ namespace Game
 {
     public class CoinSpawner : MonoBehaviour
     {
-        public Level TamagotchiLevel { get; set; }
-        public int CoinCounter { get; set; } = 0;
-
-        private CoinPool _coinPool;
+        public int CoinCounter { get; set; }
 
         private float _width;
         private float _height;
+
+        private CoinPool _coinPool;
 
         private void Start()
         {
             RectTransform rectTransform = gameObject.GetComponent<RectTransform>();
 
-            _coinPool = GetComponent<CoinPool>();
-
             _width = rectTransform.rect.width;
             _height = rectTransform.rect.height;
+
+            _coinPool = GetComponent<CoinPool>();
         }
 
-        public void SpawnCoin()
+        public void SpawnCoin(int coinsCount)
         {
-            CoinCounter += 1 * TamagotchiLevel.Lvl;
-
-            Vector2 randomPosition = new Vector2(
-                Random.Range(-_width / 2 + 50.0f, _width / 2 - 50.0f),
-                Random.Range(-_height / 2 + 50.0f, _height / 2 - 50.0f)
-            );
+            CoinCounter += coinsCount;
 
             GameObject coin = _coinPool.GetCoin();
 
             coin.transform.SetParent(gameObject.transform, false);
-            coin.GetComponent<RectTransform>().localPosition = randomPosition;
+            coin.GetComponent<RectTransform>().localPosition = GetRandomPosition();
 
-            StartCoroutine(ReturnToPoolAfterDelay(coin, 1.0f));
+            StartCoroutine(ReturnToPoolAfterDelay(coin));
         }
 
-        private IEnumerator ReturnToPoolAfterDelay(GameObject coin, float delay)
+        private IEnumerator ReturnToPoolAfterDelay(GameObject coin)
         {
-            yield return new WaitForSeconds(delay);
+            yield return new WaitForSeconds(1.0f);
             _coinPool.ReturnCoin(coin);
+        }
+
+        private Vector2 GetRandomPosition()
+        {
+            return new Vector2(
+                Random.Range(-_width / 2 + 50.0f, _width / 2 - 50.0f),
+                Random.Range(-_height / 2 + 50.0f, _height / 2 - 50.0f)
+            );
         }
     }
 }

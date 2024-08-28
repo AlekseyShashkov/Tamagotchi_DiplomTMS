@@ -5,8 +5,8 @@ namespace Game
 {
     public class CoinPool : MonoBehaviour
     {
-        [SerializeField] private GameObject _coinPrefab;
         [SerializeField] private int _poolSize = 5;
+        [SerializeField] private GameObject _coinPrefab;
 
         private Queue<GameObject> _coinPool;
 
@@ -24,18 +24,11 @@ namespace Game
 
         public GameObject GetCoin()
         {
-            if (_coinPool.Count > 0)
-            {
-                GameObject coin = _coinPool.Dequeue();
-                coin.SetActive(true);
-                return coin;
-            }
-            else
-            {
-                GameObject coin = Instantiate(_coinPrefab);
-                coin.SetActive(true);
-                return coin;
-            }
+            GameObject coin = _coinPool.Count > 0 ? _coinPool.Dequeue()
+                : Instantiate(_coinPrefab);
+            coin.SetActive(true);
+
+            return coin;
         }
 
         public void ReturnCoin(GameObject coin)

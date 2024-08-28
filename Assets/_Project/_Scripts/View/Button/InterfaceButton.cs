@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace View
 {
-    public class MyButton : CustomButton
+    public class InterfaceButton : CustomButton
     {
 
     }

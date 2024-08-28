@@ -11,5 +11,7 @@ namespace Game
         public float GetMaxState() => 200.0f;
 
         public float GetRandomDecreaseRate();
+
+        public float GetStateCoef() => State / GetMaxState();
     }
 }

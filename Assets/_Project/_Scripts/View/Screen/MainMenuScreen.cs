@@ -1,18 +1,35 @@
+using TMPro;
 using UnityEngine;
 
 namespace View
 {
-    public class MainMenu : UIScreen
+    public class MainMenuScreen : UIScreen
     {
+        [SerializeField] private UIScreen _settingsScreen;
+
+        [SerializeField] private Misc.SceneLoader _sceneLoader;
+
+        [Space, Header("Buttons")]
         [SerializeField] private CustomButton _startGame;
         [SerializeField] private CustomButton _settings;
         [SerializeField] private CustomButton _exit;
-        [SerializeField] private UIScreen _settingsScreen;
-        [SerializeField] private Misc.SceneLoader _sceneLoader;
+
+        [Space, Header("Title parameters")]
+        [SerializeField] private TextMeshProUGUI _title;
+        [SerializeField] private Color _startColor;
+        [SerializeField] private Color _endColor;
+        private float _timer = 0.0f;
+
+        private void Update()
+        {
+            _timer += Time.deltaTime % 2.0f;
+
+            _title.color = Color.Lerp(_startColor, _endColor, Mathf.PingPong(_timer, 1.0f));
+        }
 
         public override void SetupScreen(UIScreen previousScreen)
         {
-            Debug.Log("Nothig to setup");
+            Debug.LogError("Nothig to setup");
         }
 
         public override void StartScreen()
@@ -20,7 +37,7 @@ namespace View
             base.StartScreen();
 
             _startGame.AddListener(OpenGame);
-            _settings.AddListener(Options);
+            _settings.AddListener(Settings);
             _exit.AddListener(Exit);
         }
 
@@ -30,7 +47,7 @@ namespace View
             _sceneLoader.ChangeScene(Misc.SceneConstants.GAME_SCENE);
         }
 
-        private void Options()
+        private void Settings()
         {
             _settingsScreen.SetupScreen(this);
 

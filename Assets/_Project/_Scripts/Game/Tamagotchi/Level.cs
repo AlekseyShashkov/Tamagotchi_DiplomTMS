@@ -33,5 +33,7 @@ namespace Game
                 MaxExperience *= Lvl;
             }
         }
+
+        public float GetExperienceCoef() => Experience / MaxExperience;
     }
 }

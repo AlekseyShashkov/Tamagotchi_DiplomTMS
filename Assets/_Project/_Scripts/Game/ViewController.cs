@@ -1,39 +1,30 @@
 using UnityEngine;
-using UnityEngine.UI;
-using TMPro;
 
 namespace Game
 {
     public class ViewController : MonoBehaviour
     {
-        [Header("Text counters")]
-        [SerializeField] private TextMeshProUGUI _coins;
-        [SerializeField] private TextMeshProUGUI _level;
-
-        [Space, Header("Tamagotchi information")]
-        [SerializeField] private Image _experience;
-        [SerializeField] private Image _happinies;
-
-        [Space, Header("Tamagotchi states")]
-        [SerializeField] private Image _hungerState;
-        [SerializeField] private Image _dirtyState;
-        [SerializeField] private Image _fatigueState;
-        [SerializeField] private Image _sickState;
+        [SerializeField] private ViewRepository _viewRepository;
 
         public void UpdateUI(Game.Tamagotchi tamagotchi, int coins)
         {
-            _coins.text = $"{coins}";
-            _level.text = $"{tamagotchi.Level.Lvl} lvl";
+            _viewRepository.GetCoins().text = $"{coins}";
 
-            _happinies.fillAmount = tamagotchi.Happy.Happiness / tamagotchi.Happy.MaxHappiness;
-            _experience.fillAmount = tamagotchi.Level.Experience / tamagotchi.Level.MaxExperience;
+            _viewRepository.GetInformationViewRepository().GetLevel()
+                .text = $"{tamagotchi.Level.Lvl} lvl";
+            _viewRepository.GetInformationViewRepository().GetHappinies()
+                .fillAmount = tamagotchi.Happy.GetHappinessCoef();
+            _viewRepository.GetInformationViewRepository().GetExperience()
+                .fillAmount = tamagotchi.Level.GetExperienceCoef();
 
-            _hungerState.fillAmount = Amount(tamagotchi.GetState(Game.Tamagotchi.HUNGER_STATE));
-            _dirtyState.fillAmount = Amount(tamagotchi.GetState(Game.Tamagotchi.DIRTY_STATE));
-            _fatigueState.fillAmount = Amount(tamagotchi.GetState(Game.Tamagotchi.FATIGUE_STATE));
-            _sickState.fillAmount = Amount(tamagotchi.GetState(Game.Tamagotchi.SICK_STATE));
+            _viewRepository.GetStateViewRepository().GetHungerState()
+                .fillAmount = tamagotchi.GetState(Game.Tamagotchi.HUNGER_STATE).GetStateCoef();
+            _viewRepository.GetStateViewRepository().GetDirtyState()
+                .fillAmount = tamagotchi.GetState(Game.Tamagotchi.DIRTY_STATE).GetStateCoef();
+            _viewRepository.GetStateViewRepository().GetFatigueState()
+                .fillAmount = tamagotchi.GetState(Game.Tamagotchi.FATIGUE_STATE).GetStateCoef();
+            _viewRepository.GetStateViewRepository().GetSickState()
+               .fillAmount = tamagotchi.GetState(Game.Tamagotchi.SICK_STATE).GetStateCoef();
         }
-
-        private float Amount(Game.IState tamagotchiState) => tamagotchiState.State / tamagotchiState.GetMaxState();
     }
 }

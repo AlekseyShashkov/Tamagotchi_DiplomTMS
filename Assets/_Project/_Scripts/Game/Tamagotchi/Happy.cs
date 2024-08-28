@@ -11,8 +11,8 @@ namespace Game
             MaxHappiness = maxHappiness;
         }
 
-        public void UpdateHappy(float happiness) => Happiness = happiness;
+        public void SetHappiness(float happiness) => Happiness = happiness;
 
-        public float HappinessCoef() => Happiness / MaxHappiness;
+        public float GetHappinessCoef() => Happiness / MaxHappiness;
     }
 }
