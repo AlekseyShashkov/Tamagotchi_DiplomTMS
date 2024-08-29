@@ -1,4 +1,5 @@
 <h1 align="center">Tamagotchi</h1>
+
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/user-attachments/assets/859a580b-af03-4239-a848-eed610b7db73" height="20px"/>
 Классический <i>тамагочи</i> с модификацией в виде <i>кликера</i>.<img src="https://github.com/user-attachments/assets/859a580b-af03-4239-a848-eed610b7db73" height="20px"/><br/> 
 &nbsp;&nbsp;&nbsp;&nbsp; 
@@ -11,7 +12,7 @@
 https://github.com/user-attachments/assets/a8ddb362-fb30-42fe-9c28-78277a905a65
 
 ## 🔧Логика проекта:
-<img src="https://github.com/user-attachments/assets/a3779dd6-d657-4857-86b6-935182559216" height="400px" align="right"/>
+<img src="https://github.com/user-attachments/assets/a3779dd6-d657-4857-86b6-935182559216" height="400px" align="left"/>
 <img src="https://github.com/user-attachments/assets/859a580b-af03-4239-a848-eed610b7db73" height="20px"/>
 Сцена <b>0.Menu</b> - меню, на котором распалагаются кнопки:
 
@@ -22,7 +23,7 @@ https://github.com/user-attachments/assets/a8ddb362-fb30-42fe-9c28-78277a905a65
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 <hr/>
 
-<img src="https://github.com/user-attachments/assets/bef4ba09-6c89-4345-9082-08f8381ea012" height="400px" align="right"/> 
+<img src="https://github.com/user-attachments/assets/bef4ba09-6c89-4345-9082-08f8381ea012" height="400px" align="left"/> 
 <img src="https://github.com/user-attachments/assets/859a580b-af03-4239-a848-eed610b7db73" height="20px"/>
 Сцена <b>1.Game</b> - наше игровое пространство, позволяющее:
 
