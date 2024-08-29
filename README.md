@@ -1,8 +1,8 @@
 <h1 align="center">Tamagotchi</h1>
 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/user-attachments/assets/859a580b-af03-4239-a848-eed610b7db73" height="20px"/>
-Классический <i>тамагочи</i> с модификацией в виде <i>кликера</i>.<img src="https://github.com/user-attachments/assets/859a580b-af03-4239-a848-eed610b7db73" height="20px"/><br/> 
-&nbsp;&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;<img src="https://github.com/user-attachments/assets/859a580b-af03-4239-a848-eed610b7db73" height="20px"/>
+Классический <i>тамагочи</i> с модификацией в виде <i>кликера</i>.<br/> 
+&nbsp;&nbsp;<img src="https://github.com/user-attachments/assets/859a580b-af03-4239-a848-eed610b7db73" height="20px"/>
 Цель игры проста: необходимо следить за изменениями состояний нашего "питомца" и, 
 посредством взаимодействия (ЛКМ) с индикаторами, возвращать их на исходный уровень, а также зарабатывать монеты "закликивая" изображение "питомца". Общий уровень состояний отображается с помощью индикатора <i>счастья</i> (Happy).
 В процессе игры "питомец" непрерывно набирает <i>очки опыта</i> (индикатор Exp) и повышает уровень (lvl). На скорость изменения опыта влияет индикатор <i>счастья</i>: чем счастливее "питомец",
