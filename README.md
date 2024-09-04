@@ -20,7 +20,7 @@ https://github.com/user-attachments/assets/a8ddb362-fb30-42fe-9c28-78277a905a65
  - Settings - окно с настройками громкости фоновой музыки и игровых эффектов;
  - Exit - выход из игры.
 
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br clear="both">
 <hr/>
 
 <img src="https://github.com/user-attachments/assets/bef4ba09-6c89-4345-9082-08f8381ea012" height="400px" align="left"/> 
@@ -31,7 +31,7 @@ https://github.com/user-attachments/assets/a8ddb362-fb30-42fe-9c28-78277a905a65
  - Взаимодействовать с Tamagotchi и зарабатывать монеты;
  - Сохранять свой результат и продолжать с уже имеющегося сохранения.
 
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br clear="both">
 
 ## 📊UML-диаграмма классов:
 <img src="https://github.com/user-attachments/assets/a70d764c-8220-4d0a-abd5-b382593241d3"/>
