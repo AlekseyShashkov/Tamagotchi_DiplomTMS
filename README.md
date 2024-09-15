@@ -25,22 +25,22 @@
     </tr>
     <tr>
         <td> 
-<img src="https://github.com/user-attachments/assets/a3779dd6-d657-4857-86b6-935182559216" height="400px" align="left"/>
+<h5> <img src="https://github.com/user-attachments/assets/a3779dd6-d657-4857-86b6-935182559216" height="400px" align="left"/>
 <img src="https://github.com/user-attachments/assets/859a580b-af03-4239-a848-eed610b7db73" height="20px"/>
 Сцена <b>0.Menu</b> - меню, на котором распалагаются кнопки:
 
  - Start - начало игры;
  - Settings - окно с настройками громкости фоновой музыки и игровых эффектов;
- - Exit - выход из игры.            
+ - Exit - выход из игры. </h5>          
         </td>
         <td>
-<img src="https://github.com/user-attachments/assets/bef4ba09-6c89-4345-9082-08f8381ea012" height="400px" align="left"/> 
+<h5> <img src="https://github.com/user-attachments/assets/bef4ba09-6c89-4345-9082-08f8381ea012" height="400px" align="left"/> 
 <img src="https://github.com/user-attachments/assets/859a580b-af03-4239-a848-eed610b7db73" height="20px"/>
 Сцена <b>1.Game</b> - наше игровое пространство, позволяющее:
 
  - Контролировать состояния Tamagotchi;
  - Взаимодействовать с Tamagotchi и зарабатывать монеты;
- - Сохранять свой результат и продолжать с уже имеющегося сохранения.         
+ - Сохранять свой результат и продолжать с уже имеющегося сохранения. </h5>        
         </td>
     </tr>
 </table>
