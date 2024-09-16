@@ -1,3 +1,9 @@
+[![Repo Size](https://img.shields.io/github/languages/code-size/AlekseyShashkov/Tamagotchi_DiplomTMS?style=flat)](https://github.com/AlekseyShashkov/Tamagotchi_DiplomTMS/archive/master.zip)
+[![License](https://img.shields.io/github/license/AlekseyShashkov/Tamagotchi_DiplomTMS.svg)](LICENSE) 
+[![People](https://img.shields.io/github/contributors/AlekseyShashkov/Tamagotchi_DiplomTMS?style=flat&color=ffaaf2&label=People)](https://github.com/AlekseyShashkov/Tamagotchi_DiplomTMS/graphs/contributors) 
+[![Watches](https://img.shields.io/github/watchers/AlekseyShashkov/Tamagotchi_DiplomTMS?style=flat&color=f5d08b&label=Watches)](https://github.com/AlekseyShashkov/Tamagotchi_DiplomTMS/watchers) 
+[![Last Updated](https://img.shields.io/github/last-commit/AlekseyShashkov/Tamagotchi_DiplomTMS?style=flat&color=e06c75&label=)](https://github.com/AlekseyShashkov/Tamagotchi_DiplomTMS/pulse) 
+
 <h1 align="center">Tamagotchi</h1>
 
 &nbsp;&nbsp;<img src="https://github.com/user-attachments/assets/859a580b-af03-4239-a848-eed610b7db73" height="20px"/>
