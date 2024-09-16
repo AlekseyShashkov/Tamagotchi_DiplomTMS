@@ -8,7 +8,7 @@
 
 <div align="center">
 <figure>
-  <img src="https://github.com/user-attachments/assets/b6084051-18a7-48bb-aba1-d32e8558ecc9" width="35%" alt="Gameplay screenshot">
+  <img src="https://github.com/user-attachments/assets/b6084051-18a7-48bb-aba1-d32e8558ecc9" width="40%" alt="Gameplay screenshot">
   <br/>
   <figcaption>Gameplay screenshot</figcaption>
 </figure>
