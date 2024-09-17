@@ -1,11 +1,13 @@
 <div align="center">
 
 # Tamagotchi
-[![Repo Size](https://img.shields.io/github/languages/code-size/AlekseyShashkov/Tamagotchi_DiplomTMS?style=flat)](https://github.com/AlekseyShashkov/Tamagotchi_DiplomTMS/archive/master.zip)
-[![License](https://img.shields.io/github/license/AlekseyShashkov/Tamagotchi_DiplomTMS.svg)](LICENSE) 
-[![People](https://img.shields.io/github/contributors/AlekseyShashkov/Tamagotchi_DiplomTMS?style=flat&color=ffaaf2&label=People)](https://github.com/AlekseyShashkov/Tamagotchi_DiplomTMS/graphs/contributors) 
-[![Watches](https://img.shields.io/github/watchers/AlekseyShashkov/Tamagotchi_DiplomTMS?style=flat&color=f5d08b&label=Watches)](https://github.com/AlekseyShashkov/Tamagotchi_DiplomTMS/watchers) 
-[![Last Updated](https://img.shields.io/github/last-commit/AlekseyShashkov/Tamagotchi_DiplomTMS?style=flat&color=e06c75&label=)](https://github.com/AlekseyShashkov/Tamagotchi_DiplomTMS/pulse) 
+[![Repo Size](https://img.shields.io/github/repo-size/AlekseyShashkov/Tamagotchi_DiplomTMS.svg?color=9370db)](https://github.com/AlekseyShashkov/Tamagotchi_DiplomTMS/archive/master.zip)
+[![License](https://img.shields.io/github/license/AlekseyShashkov/Tamagotchi_DiplomTMS.svg)](LICENSE)
+[![Unity Version](https://img.shields.io/badge/unity-2021.3.41f1-blue)](https://unity.com/releases/editor/whats-new/2021.3.41#notes)
+[![CodeFactor](https://www.codefactor.io/repository/github/alekseyshashkov/tamagotchi_diplomtms/badge)](https://www.codefactor.io/repository/github/alekseyshashkov/tamagotchi_diplomtms)
+[![People](https://img.shields.io/github/contributors/AlekseyShashkov/Tamagotchi_DiplomTMS?style=flat&color=ffaaf2&label=people)](https://github.com/AlekseyShashkov/Tamagotchi_DiplomTMS/graphs/contributors)
+[![Watches](https://img.shields.io/github/watchers/AlekseyShashkov/Tamagotchi_DiplomTMS?style=flat&color=f5d08b&label=watches)](https://github.com/AlekseyShashkov/Tamagotchi_DiplomTMS/watchers)
+[![Last Updated](https://img.shields.io/github/last-commit/AlekseyShashkov/Tamagotchi_DiplomTMS?style=flat&color=00D1C2)](https://github.com/AlekseyShashkov/Tamagotchi_DiplomTMS/pulse)
 
 <figure>
   <img src="https://github.com/user-attachments/assets/b6084051-18a7-48bb-aba1-d32e8558ecc9" width="40%" alt="Gameplay screenshot">
@@ -27,7 +29,7 @@ The player's goal is to monitor the virtual pet's state and maintain it by click
     </kbd>
 </div>
 
-## 🔧Features
+## ✨Features
 
 <div align="left">
 <table>
@@ -56,12 +58,12 @@ Gameplay area where players interact with their virtual pet:
 </table>
 </div>
 
-## 📊UML
+## 📊Project architecture
 <div align="center">
 <figure>
   <img src="https://github.com/user-attachments/assets/da02f832-6541-408b-97a4-966db5857432" alt="Class diagram">
   <br/>
-  <figcaption> Class diagram </figcaption>
+  <figcaption> UML Class diagram </figcaption>
 </figure>
 </div>
 
@@ -104,6 +106,6 @@ Gameplay area where players interact with their virtual pet:
 </div>
 
 ## Requirements
-- Unity2021.3 or later
+- `2021.3.41f1 or later`
 
 ## Licensed under the [MIT License](LICENSE)
