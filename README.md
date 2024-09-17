@@ -1,31 +1,24 @@
-<h1 align="center">Tamagotchi</h1>
+<div align="center">
 
+# Tamagotchi
 [![Repo Size](https://img.shields.io/github/languages/code-size/AlekseyShashkov/Tamagotchi_DiplomTMS?style=flat)](https://github.com/AlekseyShashkov/Tamagotchi_DiplomTMS/archive/master.zip)
 [![License](https://img.shields.io/github/license/AlekseyShashkov/Tamagotchi_DiplomTMS.svg)](LICENSE) 
 [![People](https://img.shields.io/github/contributors/AlekseyShashkov/Tamagotchi_DiplomTMS?style=flat&color=ffaaf2&label=People)](https://github.com/AlekseyShashkov/Tamagotchi_DiplomTMS/graphs/contributors) 
 [![Watches](https://img.shields.io/github/watchers/AlekseyShashkov/Tamagotchi_DiplomTMS?style=flat&color=f5d08b&label=Watches)](https://github.com/AlekseyShashkov/Tamagotchi_DiplomTMS/watchers) 
 [![Last Updated](https://img.shields.io/github/last-commit/AlekseyShashkov/Tamagotchi_DiplomTMS?style=flat&color=e06c75&label=)](https://github.com/AlekseyShashkov/Tamagotchi_DiplomTMS/pulse) 
 
-<div align="center">
 <figure>
   <img src="https://github.com/user-attachments/assets/b6084051-18a7-48bb-aba1-d32e8558ecc9" width="40%" alt="Gameplay screenshot">
   <br/>
-  <figcaption>Gameplay screenshot</figcaption>
+  <figcaption> Gameplay screenshot </figcaption>
 </figure>
 </div>
 
 ## Introduction
-Классический <i>тамагочи</i> с модификацией в виде <i>кликера</i>.
+The game is a classic Tamagotchi with clicker elements.
 
 ## Description
-Цель игры проста: необходимо следить за изменениями состояний нашего "питомца" и, 
-посредством взаимодействия (ЛКМ) с индикаторами, возвращать их на исходный уровень, а также зарабатывать монеты "закликивая" изображение "питомца". Общий уровень состояний отображается с помощью индикатора <i>счастья</i> (Happy).
-В процессе игры "питомец" непрерывно набирает <i>очки опыта</i> (индикатор Exp) и повышает уровень (lvl). На скорость изменения опыта влияет индикатор <i>счастья</i>: чем счастливее "питомец",
-тем быстрее он прокачивается. Получаемые уровни влияют на скорость заработка монет: чем выше уровень, тем больше количество монет получаемых за клик.
-
-
-
-
+The player's goal is to monitor the virtual pet's state and maintain it by clicking to restore various indicators, such as Hunger, Dirty, Fatigue, and Sick, which are displayed at the bottom of the screen. Players can also earn coins by clicking on the pet's image. The pet's overall state is measured by the happiness indicator. During the game, the pet automatically gains experience points, leading to level-ups. The higher the pet's happiness level, the faster it gains experience. With each new level, the number of coins earned per click increases.
 
 ## 🎬Gameplay
 <div align="left">
@@ -43,33 +36,74 @@
         <th> <b>Scene 1.Game</b> </th>
     </tr>
     <tr>
-        <td>
-Меню, на котором распалагаются кнопки: 
+        <td width="50%">
+Main menu, allowing the player to choose their next action: 
 <h5> <img src="https://github.com/user-attachments/assets/a3779dd6-d657-4857-86b6-935182559216" height="400px" align="left"/>
-
- - Start - начало игры;
- - Settings - окно с настройками громкости фоновой музыки и игровых эффектов;
- - Exit - выход из игры. </h5>          
+    
+ - Start - starts a new game session. Clicking this button transitions the player to the game scene;
+ - Settings - opens the settings window. Here, the user can adjust the volume of background music and sound effects using slider for fine-tuning the audio experience;
+ - Exit - closes the game. Clicking this button exits the game entirely. </h5>          
         </td>
-        <td>
-Наше игровое пространство, позволяющее: 
+        <td width="50%">
+Gameplay area where players interact with their virtual pet:
 <h5> <img src="https://github.com/user-attachments/assets/bef4ba09-6c89-4345-9082-08f8381ea012" height="400px" align="left"/> 
 
- - Контролировать состояния Tamagotchi;
- - Взаимодействовать с Tamagotchi и зарабатывать монеты;
- - Сохранять свой результат и продолжать с уже имеющегося сохранения. </h5>        
+ - Manage pet's state - monitor and maintain the pet's various states, such as Hunger, Dirty, Fatigue, and Sick by clicking to restore them;
+ - Interact and earn coins - click on the pet to interact and earn coins. The amount of coins earned per click increases with the pet’s level;
+ - Save and Load - save your progress and resume the game from the last saved point. </h5>        
         </td>
     </tr>
 </table>
 </div>
 
-<br clear="both">
+## 📊UML
+<div align="center">
+<figure>
+  <img src="https://github.com/user-attachments/assets/da02f832-6541-408b-97a4-966db5857432" alt="Class diagram">
+  <br/>
+  <figcaption> Class diagram </figcaption>
+</figure>
+</div>
 
-## 📊UML-диаграмма классов
-<img src="https://github.com/user-attachments/assets/a70d764c-8220-4d0a-abd5-b382593241d3"/>
+>[!NOTE]
+>Different directives are indicated using colors.
+
+<div align="center">
+<table>
+<tr>
+<th>Game/</th>
+<th>Misc/</th>
+<th>View/</th>
+</tr>
+<tr vertical-align="top">
+
+<td valign="top">
+
+| A | B |
+|--|--|
+| 1 | 2 |
+| 1 | 2 |
+| 1 | 2 |
+| 1 | 2 |
+| 1 | 2 |
+
+</td><td valign="top">
+
+| A | B |
+|--|--|
+| 1 | 2 |
+| 1 | 2 |
+</td><td valign="top">
+
+| A | B |
+|--|--|
+| 1 | 2 |
+| 1 | 2 |
+| 1 | 2 |
+</td></tr> </table>
+</div>
 
 ## Requirements
-- Requires Unity2021.3 or later
+- Unity2021.3 or later
 
-## License
-MIT License (see [LICENSE](LICENSE))
+## Licensed under the [MIT License](LICENSE)
