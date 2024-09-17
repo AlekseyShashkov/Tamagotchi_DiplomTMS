@@ -12,7 +12,7 @@
 <figure>
     <img src="https://github.com/user-attachments/assets/b6084051-18a7-48bb-aba1-d32e8558ecc9" width="40%" alt="Gameplay screenshot">
     <br/>
-    <figcaption> Gameplay screenshot </figcaption>
+    <figcaption>Gameplay screenshot</figcaption>
 </figure>
 </div>
 
@@ -66,9 +66,9 @@ The player's goal is to monitor the virtual pet's state and maintain it by click
 ## Architecture
 <div align="center">
     <figure>
-        <img src="https://github.com/user-attachments/assets/da02f832-6541-408b-97a4-966db5857432" alt="Class diagram">
+        <img src="https://github.com/user-attachments/assets/72a25ee9-59c4-4538-a45a-ffbab491f0e3" alt="UML Class diagram">
         <br/>
-        <figcaption> UML Class diagram </figcaption>
+        <figcaption>UML Class diagram</figcaption>
     </figure>
 </div>
 
@@ -77,6 +77,70 @@ The player's goal is to monitor the virtual pet's state and maintain it by click
 
 <div align="center">
     <table border="1" cellpadding="10">
+        <tr>
+            <th><a href="Assets/_Project/_Scripts/Game">Game/</a></th>
+            <th><a href="Assets/_Project/_Scripts/Misc">Misc/</a></th>
+            <th><a href="Assets/_Project/_Scripts/View">View/</a></th>
+        </tr>
+        <tr>
+            <td valign="top">
+                <table>
+                    <tr>
+                        <td>1</td>
+                        <td><a href="URL_for_Game_2">2</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><a href="URL_for_Game_2">2</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><a href="URL_for_Game_2">2</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><a href="URL_for_Game_2">2</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><a href="URL_for_Game_2">2</a></td>
+                    </tr>
+                </table>
+            </td>
+            <td valign="top">
+                <table>
+                    <tr>
+                        <td>1</td>
+                        <td><a href="URL_for_Misc_2">2</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><a href="URL_for_Misc_2">2</a></td>
+                    </tr>
+                </table>
+            </td>
+            <td valign="top">
+                <table>
+                    <tr>
+                        <td>1</td>
+                        <td><a href="URL_for_View_2">2</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><a href="URL_for_View_2">2</a></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><a href="URL_for_View_2">2</a></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div align="center">
+    <table border="1">
         <tr>
             <th>Game/</th>
             <th>Misc/</th>
@@ -108,6 +172,7 @@ The player's goal is to monitor the virtual pet's state and maintain it by click
         </tr>
     </table>
 </div>
+
 
 ## Requirements
 - `2021.3.41f1 or later`
