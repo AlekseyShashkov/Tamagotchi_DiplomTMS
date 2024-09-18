@@ -33,9 +33,6 @@ The player's goal is to monitor the virtual pet's state and maintain it by click
     </kbd>
 </div>
 
-[Download link](https://github.com/AlekseyShashkov/Tamagotchi_DiplomTMS/raw/main/vid/gameplay.mp4)
-
-
 ## ✨ Features
 
 <div align="left">
