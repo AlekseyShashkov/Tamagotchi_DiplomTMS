@@ -11,28 +11,32 @@
 [![Last Commit](https://img.shields.io/github/last-commit/AlekseyShashkov/Tamagotchi_DiplomTMS?style=flat&color=00D1C2&label=Last%20Commit)](https://github.com/AlekseyShashkov/Tamagotchi_DiplomTMS/pulse)
 
 <figure>
-    <img src="https://github.com/user-attachments/assets/b6084051-18a7-48bb-aba1-d32e8558ecc9" width="40%" alt="Gameplay screenshot">
+    <img alt="Gameplay screenshot" src="img/screenshot/gameplay.jpg" width="40%"/>
     <br/>
     <figcaption>Gameplay screenshot</figcaption>
 </figure>
 </div>
 
-## Introduction
+## 🚀 Introduction
 
 The game is a classic Tamagotchi with clicker elements.
 
-## Description
+## 📚 Description
+
 The player's goal is to monitor the virtual pet's state and maintain it by clicking to restore various indicators, such as Hunger, Dirty, Fatigue, and Sick, which are displayed at the bottom of the screen. Players can also earn coins by clicking on the pet's image. The pet's overall state is measured by the happiness indicator. During the game, the pet automatically gains experience points, leading to level-ups. The higher the pet's happiness level, the faster it gains experience. With each new level, the number of coins earned per click increases.
 
-## Gameplay
+## 🎬 Gameplay
 
 <div align="left">
-    <kbd >
-        <video src="https://github.com/user-attachments/assets/14beed7f-69f4-4745-9c70-9533ed241a2e" ></video>
+    <kbd>
+        <video src="https://github.com/user-attachments/assets/f4204bbc-9ecf-4127-9b6c-be5f9eb332d4"></video>
     </kbd>
 </div>
 
-## Features
+[Download link](https://github.com/AlekseyShashkov/Tamagotchi_DiplomTMS/raw/main/vid/gameplay.mp4)
+
+
+## ✨ Features
 
 <div align="left">
     <table border="1">
@@ -44,7 +48,7 @@ The player's goal is to monitor the virtual pet's state and maintain it by click
             <td width="50%">
                 Main menu, allowing the player to choose their next action:
                 <h5>
-                    <img src="https://github.com/user-attachments/assets/a3779dd6-d657-4857-86b6-935182559216" height="400px" align="left"/>
+                    <img alt="Menu screenshot" src="img/screenshot/menu.jpg" height="400px" align="left"/>
                     <ul>
                         <li>Start - starts a new game session. Clicking this button transitions the player to the game scene;</li>
                         <li>Settings - opens the settings window. Here, the user can adjust the volume of background music and sound effects using a slider for fine-tuning the audio experience;</li>
@@ -55,7 +59,7 @@ The player's goal is to monitor the virtual pet's state and maintain it by click
             <td width="50%">
                 Gameplay area where players interact with their virtual pet:
                 <h5>
-                    <img src="https://github.com/user-attachments/assets/bef4ba09-6c89-4345-9082-08f8381ea012" height="400px" align="left"/>
+                    <img alt="Game screenshot" src="img/screenshot/game.jpg" height="400px" align="left"/>
                     <ul>
                         <li>Manage pet's state - monitor and maintain the pet's various states, such as Hunger, Dirty, Fatigue, and Sick by clicking to restore them;</li>
                         <li>Interact and earn coins - click on the pet to interact and earn coins. The amount of coins earned per click increases with the pet’s level;</li>
@@ -67,13 +71,13 @@ The player's goal is to monitor the virtual pet's state and maintain it by click
     </table>
 </div>
 
-## Architecture
+## 🧱 Architecture
 
-### System structure
+### 🧩 System structure
 
 <div align="center">
     <figure>
-        <img src="https://github.com/user-attachments/assets/d48dc89e-709b-48a3-ade9-12c4f98b9820" alt="UML Class diagram">
+        <img alt="UML Class diagram" src="img/UML/class diagram.jpg"/>
         <br/>
         <figcaption>UML Class diagram</figcaption>
     </figure>
@@ -93,27 +97,27 @@ The player's goal is to monitor the virtual pet's state and maintain it by click
             <td valign="top" align="left">
                 <table>
                     <tr>
-                        <td><code><img src="https://github.com/user-attachments/assets/7c34ce7c-c195-4c61-93c1-d3ca33ab8520" height="14px" alt="#00ced1"> #00ced1</code></td>
+                        <td><code><img alt="#00ced1" src="img/UML/game/%2300ced1.png" height="14px"/> #00ced1</code></td>
                         <td><kbd><a href="Assets/_Project/_Scripts/Game">_Scripts/Game</a></kbd></td>
                     </tr>
                     <tr>
-                        <td><code><img src="https://github.com/user-attachments/assets/fd845195-db58-4846-ad33-69d547b9c18a" height="14px" alt="#ffd700"> #ffd700</code></td>
+                        <td><code><img alt="#ffd700" src="img/UML/game/%23ffd700.png" height="14px"/> #ffd700</code></td>
                         <td><kbd><a href="Assets/_Project/_Scripts/Game/Coin">_Scripts/Game/Coin</a></kbd></td>
                     </tr>
                     <tr>
-                        <td><code><img src="https://github.com/user-attachments/assets/c3e60ed4-7849-4755-9b7a-a3218f8f05e6" height="14px" alt="#5f9ea0"> #5f9ea0</code></td>
+                        <td><code><img alt="#5f9ea0" src="img/UML/game/%235f9ea0.png" height="14px"/> #5f9ea0</code></td>
                         <td><kbd><a href="Assets/_Project/_Scripts/Game/Tamagotchi">_Scripts/Game/Tamagotchi</a></kbd></td>
                     </tr>
                     <tr>
-                        <td><code><img src="https://github.com/user-attachments/assets/164b69f0-af95-4819-900b-e48c324b7fbf" height="14px" alt="#f6f6f4"> #f6f6f4</code></td>
+                        <td><code><img alt="#f6f6f4" src="img/UML/game/%23f6f6f4.png" height="14px"/> #f6f6f4</code></td>
                         <td><kbd><a href="Assets/_Project/_Scripts/Game/Tamagotchi/State">_Scripts/Game/Tamagotchi/State</a></kbd></td>
                     </tr>
                     <tr>
-                        <td><code><img src="https://github.com/user-attachments/assets/5abd644c-5012-437a-8aa3-bfda59f7d221" height="14px" alt="#9370db"> #9370db</code></td>
+                        <td><code><img alt="#9370db" src="img/UML/game/%239370db.png" height="14px"/> #9370db</code></td>
                         <td><kbd><a href="Assets/_Project/_Scripts/Game/Repository/View">_Scripts/Game/Repository/View</a></kbd></td>
                     </tr>
                     <tr>
-                        <td><code><img src="https://github.com/user-attachments/assets/00dc2ade-9a98-4b2e-bf5d-d3a01a2f4fae" height="14px" alt="#d8bfd8"> #d8bfd8</code></td>
+                        <td><code><img alt="#d8bfd8" src="img/UML/game/%23d8bfd8.png" height="14px"/> #d8bfd8</code></td>
                         <td><kbd><a href="Assets/_Project/_Scripts/Game/Repository/Button">_Scripts/Game/Repository/Button</a></kbd></td>
                     </tr>
                 </table>
@@ -121,11 +125,11 @@ The player's goal is to monitor the virtual pet's state and maintain it by click
             <td valign="top" align="left">
                 <table>
                     <tr>
-                        <td><code><img src="https://github.com/user-attachments/assets/103a6929-4a90-4bde-9410-25fb8cf83e1d" height="14px" alt="#f0e68c"> #f0e68c</code></td>
+                        <td><code><img alt="#f0e68c" src="img/UML/misc/%23f0e68c.png" height="14px"/> #f0e68c</code></td>
                         <td><kbd><a href="Assets/_Project/_Scripts/Misc">_Scripts/Misc</a></kbd></td>
                     </tr>
                     <tr>
-                        <td><code><img src="https://github.com/user-attachments/assets/4a09706a-3695-49e7-94b0-9d42e27367db" height="14px" alt="#ff6f61"> #ff6f61</code></td>
+                        <td><code><img alt="#ff6f61" src="img/UML/misc/%23ff6f61.png" height="14px"/> #ff6f61</code></td>
                         <td><kbd><a href="Assets/_Project/_Scripts/Misc/SaveLoadSystem">_Scripts/Misc/SaveLoadSystem</a></kbd></td>
                     </tr>
                 </table>
@@ -133,15 +137,15 @@ The player's goal is to monitor the virtual pet's state and maintain it by click
             <td valign="top" align="left">
                 <table>
                     <tr>
-                        <td><code><img src="https://github.com/user-attachments/assets/6c72aa54-a734-41cd-9a3f-7e985bb855f7" height="14px" alt="#5f9fff"> #5f9fff</code></td>
+                        <td><code><img alt="#5f9fff" src="img/UML/view/%235f9fff.png" height="14px"/> #5f9fff</code></td>
                         <td><kbd><a href="Assets/_Project/_Scripts/View">_Scripts/View</a></kbd></td>
                     </tr>
                     <tr>
-                        <td><code><img src="https://github.com/user-attachments/assets/04e570e2-2995-417a-9524-753aa117e89e" height="14px" alt="#ffdab9"> #ffdab9</code></td>
+                        <td><code><img alt="#ffdab9" src="img/UML/view/%23ffdab9.png" height="14px"/> #ffdab9</code></td>
                         <td><kbd><a href="Assets/_Project/_Scripts/View/Screen">_Scripts/View/Screen</a></kbd></td>
                     </tr>
                     <tr>
-                        <td><code><img src="https://github.com/user-attachments/assets/c27e103c-616d-4877-aa0f-76ba51020ecc" height="14px" alt="#8fd5a6"> #8fd5a6</code></td>
+                        <td><code><img alt="#8fd5a6" src="img/UML/view/%238fd5a6.png" height="14px"/> #8fd5a6</code></td>
                         <td><kbd><a href="Assets/_Project/_Scripts/View/Button">_Scripts/View/Button</a></kbd></td>
                     </tr>
                 </table>
@@ -150,7 +154,7 @@ The player's goal is to monitor the virtual pet's state and maintain it by click
     </table>
 </div>
 
-### Project hierarchy
+### 🗃️ Project hierarchy
 
 <table border="1">
     <tr>
@@ -158,16 +162,13 @@ The player's goal is to monitor the virtual pet's state and maintain it by click
         <th><b>Scene 1.Game</b></th>
     </tr>
     <tr>
-        <td valign="top"><img src="https://github.com/user-attachments/assets/435b9c20-1eab-4138-928a-2e4f2be4c7af" alt="MenuHierarchy"></td>
-        <td valign="top"><img src="https://github.com/user-attachments/assets/bdbdf592-e7a5-4d19-ab6a-baabb95d9ea4" alt="GameHierarchy"></td>
+        <td valign="top"><img alt="Menu hierarchy" src="img/hierarchy/menu.jpg"/></td>
+        <td valign="top"><img alt="Game hierarchy" src="img/hierarchy/game.jpg"/></td>
     </tr>
 </table>
 
+## ⚙️ Requirements
 
-
-
-
-## Requirements
 - `2021.3.41f1 or later`
 
-## Licensed under the [MIT License](LICENSE)
+## ⚖️ Licensed under the [MIT License](LICENSE)
