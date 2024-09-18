@@ -66,7 +66,7 @@ The player's goal is to monitor the virtual pet's state and maintain it by click
 ## Architecture
 <div align="center">
     <figure>
-        <img src="https://github.com/user-attachments/assets/72a25ee9-59c4-4538-a45a-ffbab491f0e3" alt="UML Class diagram">
+        <img src="https://github.com/user-attachments/assets/d48dc89e-709b-48a3-ade9-12c4f98b9820" alt="UML Class diagram">
         <br/>
         <figcaption>UML Class diagram</figcaption>
     </figure>
@@ -86,27 +86,27 @@ The player's goal is to monitor the virtual pet's state and maintain it by click
             <td valign="top" align="left">
                 <table>
                     <tr>
-                        <td><code><img src="https://github.com/user-attachments/assets/7c34ce7c-c195-4c61-93c1-d3ca33ab8520" height="11px" alt="#00ced1"> #00ced1</code></td>
+                        <td><code><img src="https://github.com/user-attachments/assets/7c34ce7c-c195-4c61-93c1-d3ca33ab8520" height="14px" alt="#00ced1"> #00ced1</code></td>
                         <td><kbd><a href="Assets/_Project/_Scripts/Game">_Scripts/Game</a></kbd></td>
                     </tr>
                     <tr>
-                        <td><code><img src="https://github.com/user-attachments/assets/fd845195-db58-4846-ad33-69d547b9c18a" height="11px" alt="#ffd700"> #ffd700</code></td>
+                        <td><code><img src="https://github.com/user-attachments/assets/fd845195-db58-4846-ad33-69d547b9c18a" height="14px" alt="#ffd700"> #ffd700</code></td>
                         <td><kbd><a href="Assets/_Project/_Scripts/Game/Coin">_Scripts/Game/Coin</a></kbd></td>
                     </tr>
                     <tr>
-                        <td><code><img src="https://github.com/user-attachments/assets/c3e60ed4-7849-4755-9b7a-a3218f8f05e6" height="11px" alt="#5f9ea0"> #5f9ea0</code></td>
+                        <td><code><img src="https://github.com/user-attachments/assets/c3e60ed4-7849-4755-9b7a-a3218f8f05e6" height="14px" alt="#5f9ea0"> #5f9ea0</code></td>
                         <td><kbd><a href="Assets/_Project/_Scripts/Game/Tamagotchi">_Scripts/Game/Tamagotchi</a></kbd></td>
                     </tr>
                     <tr>
-                        <td><code><img src="https://github.com/user-attachments/assets/164b69f0-af95-4819-900b-e48c324b7fbf" height="11px" alt="#f6f6f4"> #f6f6f4</code></td>
+                        <td><code><img src="https://github.com/user-attachments/assets/164b69f0-af95-4819-900b-e48c324b7fbf" height="14px" alt="#f6f6f4"> #f6f6f4</code></td>
                         <td><kbd><a href="Assets/_Project/_Scripts/Game/Tamagotchi/State">_Scripts/Game/Tamagotchi/State</a></kbd></td>
                     </tr>
                     <tr>
-                        <td><code><img src="https://github.com/user-attachments/assets/5abd644c-5012-437a-8aa3-bfda59f7d221" height="11px" alt="#9370db"> #9370db</code></td>
+                        <td><code><img src="https://github.com/user-attachments/assets/5abd644c-5012-437a-8aa3-bfda59f7d221" height="14px" alt="#9370db"> #9370db</code></td>
                         <td><kbd><a href="Assets/_Project/_Scripts/Game/Repository/View">_Scripts/Game/Repository/View</a></kbd></td>
                     </tr>
                     <tr>
-                        <td><code><img src="https://github.com/user-attachments/assets/00dc2ade-9a98-4b2e-bf5d-d3a01a2f4fae" height="11px" alt="#d8bfd8"> #d8bfd8</code></td>
+                        <td><code><img src="https://github.com/user-attachments/assets/00dc2ade-9a98-4b2e-bf5d-d3a01a2f4fae" height="14px" alt="#d8bfd8"> #d8bfd8</code></td>
                         <td><kbd><a href="Assets/_Project/_Scripts/Game/Repository/Button">_Scripts/Game/Repository/Button</a></kbd></td>
                     </tr>
                 </table>
@@ -114,11 +114,11 @@ The player's goal is to monitor the virtual pet's state and maintain it by click
             <td valign="top" align="left">
                 <table>
                     <tr>
-                        <td><code><img src="https://github.com/user-attachments/assets/103a6929-4a90-4bde-9410-25fb8cf83e1d" height="11px" alt="#f0e68c"> #f0e68c</code></td>
+                        <td><code><img src="https://github.com/user-attachments/assets/103a6929-4a90-4bde-9410-25fb8cf83e1d" height="14px" alt="#f0e68c"> #f0e68c</code></td>
                         <td><kbd><a href="Assets/_Project/_Scripts/Misc">_Scripts/Misc</a></kbd></td>
                     </tr>
                     <tr>
-                        <td><code><img src="https://github.com/user-attachments/assets/4a09706a-3695-49e7-94b0-9d42e27367db" height="11px" alt="#ff6f61"> #ff6f61</code></td>
+                        <td><code><img src="https://github.com/user-attachments/assets/4a09706a-3695-49e7-94b0-9d42e27367db" height="14px" alt="#ff6f61"> #ff6f61</code></td>
                         <td><kbd><a href="Assets/_Project/_Scripts/Misc/SaveLoadSystem">_Scripts/Misc/SaveLoadSystem</a></kbd></td>
                     </tr>
                 </table>
@@ -126,15 +126,15 @@ The player's goal is to monitor the virtual pet's state and maintain it by click
             <td valign="top" align="left">
                 <table>
                     <tr>
-                        <td><code><img src="https://github.com/user-attachments/assets/bc577ba6-a627-4c39-ba65-2ae58465859e" height="11px" alt="#f5f5dc"> #f5f5dc</code></td>
+                        <td><code><img src="https://github.com/user-attachments/assets/6c72aa54-a734-41cd-9a3f-7e985bb855f7" height="14px" alt="#5f9fff"> #5f9fff</code></td>
                         <td><kbd><a href="Assets/_Project/_Scripts/View">_Scripts/View</a></kbd></td>
                     </tr>
                     <tr>
-                        <td><code><img src="https://github.com/user-attachments/assets/04e570e2-2995-417a-9524-753aa117e89e" height="11px" alt="#ffdab9"> #ffdab9</code></td>
+                        <td><code><img src="https://github.com/user-attachments/assets/04e570e2-2995-417a-9524-753aa117e89e" height="14px" alt="#ffdab9"> #ffdab9</code></td>
                         <td><kbd><a href="Assets/_Project/_Scripts/View/Screen">_Scripts/View/Screen</a></kbd></td>
                     </tr>
                     <tr>
-                        <td><code><img src="https://github.com/user-attachments/assets/c27e103c-616d-4877-aa0f-76ba51020ecc" height="11px" alt="#8fd5a6"> #8fd5a6</code></td>
+                        <td><code><img src="https://github.com/user-attachments/assets/c27e103c-616d-4877-aa0f-76ba51020ecc" height="14px" alt="#8fd5a6"> #8fd5a6</code></td>
                         <td><kbd><a href="Assets/_Project/_Scripts/View/Button">_Scripts/View/Button</a></kbd></td>
                     </tr>
                 </table>
