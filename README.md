@@ -1,6 +1,7 @@
 <div align="center">
 
 # Tamagotchi
+
 [![Repo Size](https://img.shields.io/github/repo-size/AlekseyShashkov/Tamagotchi_DiplomTMS.svg?style=flat&color=9370db&label=Repo%20Size)](https://github.com/AlekseyShashkov/Tamagotchi_DiplomTMS/archive/master.zip)
 [![License](https://img.shields.io/github/license/AlekseyShashkov/Tamagotchi_DiplomTMS.svg?style=flat&label=License)](LICENSE)
 [![Unity Version](https://img.shields.io/badge/unity-2021.3.41f1-blue?style=flat&label=Unity)](https://unity.com/releases/editor/whats-new/2021.3.41#notes)
@@ -17,12 +18,14 @@
 </div>
 
 ## Introduction
+
 The game is a classic Tamagotchi with clicker elements.
 
 ## Description
 The player's goal is to monitor the virtual pet's state and maintain it by clicking to restore various indicators, such as Hunger, Dirty, Fatigue, and Sick, which are displayed at the bottom of the screen. Players can also earn coins by clicking on the pet's image. The pet's overall state is measured by the happiness indicator. During the game, the pet automatically gains experience points, leading to level-ups. The higher the pet's happiness level, the faster it gains experience. With each new level, the number of coins earned per click increases.
 
 ## Gameplay
+
 <div align="left">
     <kbd >
         <video src="https://github.com/user-attachments/assets/14beed7f-69f4-4745-9c70-9533ed241a2e" ></video>
@@ -30,11 +33,12 @@ The player's goal is to monitor the virtual pet's state and maintain it by click
 </div>
 
 ## Features
+
 <div align="left">
     <table border="1">
         <tr align="center">
-            <th><b>Scene 0. Menu</b></th>
-            <th><b>Scene 1. Game</b></th>
+            <th><b>Scene 0.Menu</b></th>
+            <th><b>Scene 1.Game</b></th>
         </tr>
         <tr>
             <td width="50%">
@@ -64,6 +68,9 @@ The player's goal is to monitor the virtual pet's state and maintain it by click
 </div>
 
 ## Architecture
+
+### System structure
+
 <div align="center">
     <figure>
         <img src="https://github.com/user-attachments/assets/d48dc89e-709b-48a3-ade9-12c4f98b9820" alt="UML Class diagram">
@@ -142,6 +149,23 @@ The player's goal is to monitor the virtual pet's state and maintain it by click
         </tr>
     </table>
 </div>
+
+### Project hierarchy
+
+<table border="1">
+    <tr>
+        <th><b>Scene 0.Menu</b></th>
+        <th><b>Scene 1.Game</b></th>
+    </tr>
+    <tr>
+        <td valign="top"><img src="https://github.com/user-attachments/assets/435b9c20-1eab-4138-928a-2e4f2be4c7af" alt="MenuHierarchy"></td>
+        <td valign="top"><img src="https://github.com/user-attachments/assets/bdbdf592-e7a5-4d19-ab6a-baabb95d9ea4" alt="GameHierarchy"></td>
+    </tr>
+</table>
+
+
+
+
 
 ## Requirements
 - `2021.3.41f1 or later`
