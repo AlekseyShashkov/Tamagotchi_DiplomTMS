@@ -70,7 +70,7 @@ The player's goal is to monitor the virtual pet's state and maintain it by click
 
 ## 🔥 Project features
 
-- [x] User interface
+- [x] UI
     - [x] Main menu screen with options to start the game, access settings, and exit the application
     - [x] Settings screen with an option to return to the previous screen
     - [x] Main gameplay screen displaying the game state
@@ -188,7 +188,7 @@ The player's goal is to monitor the virtual pet's state and maintain it by click
 
 ## 🏆 Achieved goals
 
-- [x] Intuitive user interface
+- [x] Intuitive UI
     - [x] Screens for managing the game and settings have been created and configured
     - [x] Buttons with feedback have been implemented for convenient interaction
 - [x] Well-designed gameplay mechanics
