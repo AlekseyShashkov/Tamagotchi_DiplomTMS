@@ -75,7 +75,7 @@ The player's goal is to monitor the virtual pet's state and maintain it by click
     - [x] Settings screen with an option to return to the previous screen
     - [x] Main gameplay screen displaying the game state
 - [x] Gameplay mechanics
-    - [x] Managing Tamagotchi's state (hunger, dirtiness, fatigue, sickness)
+    - [x] Managing Tamagotchi's state (hunger, dirty, fatigue, sick)
     - [x] Increasing levels and accumulating experience
     - [x] Spawning and managing coins (using an object pool for resource efficiency)
 - [x] Audio
