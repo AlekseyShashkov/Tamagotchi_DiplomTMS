@@ -33,7 +33,7 @@ The player's goal is to monitor the virtual pet's state and maintain it by click
     </kbd>
 </div>
 
-## ✨ Features
+## ✨ Game features
 
 <div align="left">
     <table border="1">
@@ -67,6 +67,28 @@ The player's goal is to monitor the virtual pet's state and maintain it by click
         </tr>
     </table>
 </div>
+
+## 🔥 Project features
+
+- [x] User interface
+    - [x] Main menu screen with options to start the game, access settings, and exit the application
+    - [x] Settings screen with an option to return to the previous screen
+    - [x] Main gameplay screen displaying the game state
+- [x] Gameplay mechanics
+    - [x] Managing Tamagotchi's state (hunger, dirtiness, fatigue, sickness)
+    - [x] Increasing levels and accumulating experience
+    - [x] Spawning and managing coins (using an object pool for resource efficiency)
+- [x] Audio
+    - [x] Volume control via a slider
+    - [x] Playing sound effects when interacting with buttons
+- [x] Scene management
+    - [x] Loading and switching between scenes with a delay for smoother transitions
+- [x] Buttons
+    - [x] Custom buttons with visual and sound effects on press
+    - [x] Animation of scaling and color change on press
+- [x] Saving and Loading
+    - [x] Saving game state to a file
+    - [x] Loading saved game state from a file
 
 ## 🧱 Architecture
 
@@ -163,6 +185,24 @@ The player's goal is to monitor the virtual pet's state and maintain it by click
         <td valign="top"><img alt="Game hierarchy" src="img/hierarchy/game.jpg"/></td>
     </tr>
 </table>
+
+## 🏆 Achieved goals
+
+- [x] Intuitive user interface
+    - [x] Screens for managing the game and settings have been created and configured
+    - [x] Buttons with feedback have been implemented for convenient interaction
+- [x] Well-designed gameplay mechanics
+    - [x] A system for managing Tamagotchi's states and their effects has been developed
+    - [x] An object pool has been integrated for efficient coin management
+- [x] Flexible audio control
+    - [x] Volume adjustment and sound effect playback features have been added
+    - [x] Integration with the audio system for smooth sound management
+- [x] Smooth scene management
+    - [x] A system for scene loading with asynchronous progress and debugging messages has been implemented
+- [x] Interactive buttons
+    - [x] Custom buttons with animation and sound effects have been created
+- [x] Effective saving and loading
+    - [x] A system for saving and loading game state data in JSON format has been developed
 
 ## ⚙️ Requirements
 
