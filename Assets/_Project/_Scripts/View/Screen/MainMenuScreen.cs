@@ -44,7 +44,7 @@ namespace View
         private void OpenGame()
         {
             CloseScreen();
-            _sceneLoader.ChangeScene(Misc.SceneConstants.GAME_SCENE);
+            _sceneLoader.ChangeScene(Misc.SceneConstants.GAME_SCENE).Forget();
         }
 
         private void Settings()

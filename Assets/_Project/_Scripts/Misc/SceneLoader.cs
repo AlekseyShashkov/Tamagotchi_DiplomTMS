@@ -1,27 +1,27 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System.Threading.Tasks;
+using Cysharp.Threading.Tasks;
 
 namespace Misc
 {
     public class SceneLoader : MonoBehaviour
     {
-        public async void ChangeScene(string sceneName)
+        public async UniTaskVoid ChangeScene(string sceneName)
         {
             Debug.Log("Starting scene change...");
 
-            await Task.Delay(1000);
+            await UniTask.Delay(1000);
             await LoadSceneAsync(sceneName);
         }
 
-        private async Task LoadSceneAsync(string sceneName)
+        private async UniTask LoadSceneAsync(string sceneName)
         {
             AsyncOperation asyncOperation = SceneManager.LoadSceneAsync(sceneName);
 
             while (!asyncOperation.isDone)
             {
                 Debug.Log($"Loading progress: {asyncOperation.progress * 100}%");
-                await Task.Yield();
+                await UniTask.Yield();
             }
 
             Debug.Log("Scene loaded successfully!");

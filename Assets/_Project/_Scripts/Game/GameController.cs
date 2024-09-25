@@ -59,7 +59,7 @@ namespace Game
         private void MenuLoad()
         {
             _gameScreen.CloseScreen();
-            _sceneLoader.ChangeScene(Misc.SceneConstants.MENU_SCENE);
+            _sceneLoader.ChangeScene(Misc.SceneConstants.MENU_SCENE).Forget();
         }
     }
 }
